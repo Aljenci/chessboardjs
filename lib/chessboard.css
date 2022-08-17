@@ -5,7 +5,7 @@
 }
 
 .board-b72b1 {
-  border: 2px solid #404040;
+  border: 2px solid #000000;
   box-sizing: content-box;
 }
 
@@ -23,13 +23,14 @@
 }
 
 .white-1e1d7 {
-  background-color: #f0d9b5;
-  color: #b58863;
+  background-color: #ffffff;
+  color: transparent;
 }
 
 .black-3c85d {
-  background-color: #b58863;
-  color: #f0d9b5;
+  background-image: linear-gradient(135deg, #000000 0.5px, #ffffff 0.5px, #ffffff calc(50% - 0.5px), #000000 calc(50% - 0.5px), #000000 calc(50% + 0.5px), #ffffff calc(50% + 0.5px), #ffffff calc(100% - 0.5px), #000000 calc(100% - 0.5px), #000000 100%);
+  background-size: calc(100% / 10) calc(100% / 10);
+  color: transparent;
 }
 
 .highlight1-32417, .highlight2-9c5d2 {
